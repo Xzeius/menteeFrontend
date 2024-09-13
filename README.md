@@ -51,12 +51,59 @@ Follow these instructions to set up and run the project locally.
 
    ```bash
    git clone https://github.com/Abaan9350/mentee_dash.git
+   ```
 
 2. **Navigate to the Project Directory:**
 
-    cd mentee_dash
-    
+   ```bash
+   cd mentee_dash
+   ```
+
 3. **Install Dependencies:**
 
-    npm install
+   ```bash
+   npm install
+   ```
 
+### Running the Application
+
+1. **Start the Backend Server:**
+
+   ```bash
+   npm start
+   ```
+
+2. **Run the Frontend:**
+
+   Use a separate terminal for this:
+
+   ```bash
+   npm run client
+   ```
+
+   The application will now be accessible at `http://localhost:3000`.
+
+## Project Structure
+
+```bash
+mentee_dash/
+├── client/           # React frontend code
+├── server/           # Express backend code
+├── public/           # Static assets
+├── node_modules/     # Node.js dependencies
+├── package.json      # Project dependencies and scripts
+└── README.md         # Project documentation
+```
+
+## Contributing
+
+We welcome contributions! To contribute:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bugfix.
+3. Commit your changes.
+4. Push the branch and create a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
