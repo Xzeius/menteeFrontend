@@ -55,37 +55,30 @@ Follow these instructions to set up and run the project locally.
 
 2. **Navigate to the Project Directory:**
 
-   ```bash
    cd mentee_dash
-   ```
+
 
 3. **Install Dependencies:**
 
-   ```bash
    npm install
-   ```
 
 ### Running the Application
 
 1. **Start the Backend Server:**
 
-   ```bash
    npm start
-   ```
+   
 
 2. **Run the Frontend:**
 
    Use a separate terminal for this:
 
-   ```bash
    npm run client
-   ```
 
    The application will now be accessible at `http://localhost:3000`.
 
 ## Project Structure
 
-```bash
 mentee_dash/
 ├── client/           # React frontend code
 ├── server/           # Express backend code
