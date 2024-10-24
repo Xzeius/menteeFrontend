@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
 import '../styles/content.css';
-import { BiCalendar, BiMessage, BiEdit } from "react-icons/bi"; // Imported necessary icons
+import { BiCalendar, BiParty , BiEdit } from "react-icons/bi"; // Imported necessary icons
 
 const prn="PRN002"; //Added prn here for redirect
 
@@ -11,8 +11,8 @@ const course = [
     icon: <BiCalendar className="card-icon" />,
   },
   {
-    title: "Message",
-    icon: <BiMessage className="card-icon" />,
+    title: "Events",
+    icon: <BiParty  className="card-icon" />,
     path: `/MessageCompose`, // Path for Message card
   },
   {
